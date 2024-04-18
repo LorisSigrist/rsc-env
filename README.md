@@ -1,4 +1,4 @@
-# RSC-ENV
+# RSC-ENV
 
 Inspired by the brilliant [`esm-env`](https://github.com/benmccann/esm-env?tab=readme-ov-file)
 
