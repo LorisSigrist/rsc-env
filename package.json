@@ -1,0 +1,22 @@
+{
+	"name": "rsc-env",
+	"version": "0.0.1",
+	"description": "Discriminates between react-server and other environments",
+	"author": "Loris Sigrist",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LorisSigrist/rsc-env.git"
+	},
+	"homepage": "https://github.com/LorisSigrist/rsc-env",
+	"type": "module",
+	"license": "MIT",
+	"main": "not-rsc.js",
+	"types": "index.d.ts",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"react-server": "./rsc.js",
+			"default": "./not-rsc.js"
+		}
+	}
+}
