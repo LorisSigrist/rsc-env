@@ -20,6 +20,6 @@ import { rsc } from "rsc-env";
 if(rsc) console.log("I'm running in a server component")
 ```
 
-## License
+## License
 
 [MIT](./LICENSE.md)
