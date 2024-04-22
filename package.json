@@ -1,6 +1,6 @@
 {
   "name": "rsc-env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Discriminates between react-server and other environments",
   "author": "Loris Sigrist",
   "publishConfig": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/LorisSigrist/rsc-env.git"
   },
   "homepage": "https://github.com/LorisSigrist/rsc-env",
-
+  "sideEffects": false,
   "keywords": [
     "rsc",
     "react-server-components",
